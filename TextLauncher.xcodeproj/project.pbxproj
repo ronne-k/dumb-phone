@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* TextLauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001010000000000000001 /* TextLauncherApp.swift */; };
+		A10000020000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001020000000000000001 /* ContentView.swift */; };
+		A10000030000000000000001 /* LauncherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001030000000000000001 /* LauncherViewModel.swift */; };
+		A10000040000000000000001 /* LauncherEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001040000000000000001 /* LauncherEntry.swift */; };
+		A10000050000000000000001 /* LauncherStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001050000000000000001 /* LauncherStore.swift */; };
+		A10000060000000000000001 /* LaunchRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001060000000000000001 /* LaunchRouting.swift */; };
+		A10000070000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001070000000000000001 /* Assets.xcassets */; };
+		A10000080000000000000001 /* TextLauncherWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10001080000000000000001 /* TextLauncherWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000090000000000000001 /* TextLauncherWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001090000000000000001 /* TextLauncherWidgetBundle.swift */; };
+		A100000A0000000000000001 /* TextLauncherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100010A0000000000000001 /* TextLauncherWidget.swift */; };
+		A100000B0000000000000001 /* LauncherEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001040000000000000001 /* LauncherEntry.swift */; };
+		A100000C0000000000000001 /* LauncherStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001050000000000000001 /* LauncherStore.swift */; };
+		A100000D0000000000000001 /* LaunchRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001060000000000000001 /* LaunchRouting.swift */; };
+		A100000E0000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100010B0000000000000001 /* Assets.xcassets */; };
+		A10000120000000000000002 /* TextLauncherWidgetConfigurationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000130000000000000002 /* TextLauncherWidgetConfigurationIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000210000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000100000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000170000000000000001;
+			remoteInfo = TextLauncherWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A100001F0000000000000001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000080000000000000001 /* TextLauncherWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A10001010000000000000001 /* TextLauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLauncherApp.swift; sourceTree = "<group>"; };
+		A10001020000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10001030000000000000001 /* LauncherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewModel.swift; sourceTree = "<group>"; };
+		A10001040000000000000001 /* LauncherEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherEntry.swift; sourceTree = "<group>"; };
+		A10001050000000000000001 /* LauncherStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherStore.swift; sourceTree = "<group>"; };
+		A10001060000000000000001 /* LaunchRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRouting.swift; sourceTree = "<group>"; };
+		A10001070000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10001080000000000000001 /* TextLauncherWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TextLauncherWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10001090000000000000001 /* TextLauncherWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLauncherWidgetBundle.swift; sourceTree = "<group>"; };
+		A100010A0000000000000001 /* TextLauncherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLauncherWidget.swift; sourceTree = "<group>"; };
+		A100010B0000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A100010C0000000000000001 /* TextLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100010D0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100010E0000000000000001 /* TextLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextLauncher.entitlements; sourceTree = "<group>"; };
+		A100010F0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10001100000000000000001 /* TextLauncherWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextLauncherWidget.entitlements; sourceTree = "<group>"; };
+		A10001110000000000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A10000130000000000000002 /* TextLauncherWidgetConfigurationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLauncherWidgetConfigurationIntent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000190000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100001D0000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000110000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10001110000000000000001 /* README.md */,
+				A10000120000000000000001 /* TextLauncher */,
+				A10000130000000000000001 /* TextLauncherWidget */,
+				A10000140000000000000001 /* Shared */,
+				A10000150000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000120000000000000001 /* TextLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				A10001010000000000000001 /* TextLauncherApp.swift */,
+				A10001020000000000000001 /* ContentView.swift */,
+				A10001030000000000000001 /* LauncherViewModel.swift */,
+				A10001070000000000000001 /* Assets.xcassets */,
+				A100010D0000000000000001 /* Info.plist */,
+				A100010E0000000000000001 /* TextLauncher.entitlements */,
+			);
+			path = TextLauncher;
+			sourceTree = "<group>";
+		};
+		A10000130000000000000001 /* TextLauncherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A10001090000000000000001 /* TextLauncherWidgetBundle.swift */,
+				A100010A0000000000000001 /* TextLauncherWidget.swift */,
+				A10000130000000000000002 /* TextLauncherWidgetConfigurationIntent.swift */,
+				A100010B0000000000000001 /* Assets.xcassets */,
+				A100010F0000000000000001 /* Info.plist */,
+				A10001100000000000000001 /* TextLauncherWidget.entitlements */,
+			);
+			path = TextLauncherWidget;
+			sourceTree = "<group>";
+		};
+		A10000140000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A10001040000000000000001 /* LauncherEntry.swift */,
+				A10001050000000000000001 /* LauncherStore.swift */,
+				A10001060000000000000001 /* LaunchRouting.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A10000150000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A100010C0000000000000001 /* TextLauncher.app */,
+				A10001080000000000000001 /* TextLauncherWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000160000000000000001 /* TextLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000260000000000000001 /* Build configuration list for PBXNativeTarget "TextLauncher" */;
+			buildPhases = (
+				A10000180000000000000001 /* Sources */,
+				A10000190000000000000001 /* Frameworks */,
+				A100001A0000000000000001 /* Resources */,
+				A100001F0000000000000001 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000220000000000000001 /* PBXTargetDependency */,
+			);
+			name = TextLauncher;
+			productName = TextLauncher;
+			productReference = A100010C0000000000000001 /* TextLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000170000000000000001 /* TextLauncherWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000270000000000000001 /* Build configuration list for PBXNativeTarget "TextLauncherWidget" */;
+			buildPhases = (
+				A100001C0000000000000001 /* Sources */,
+				A100001D0000000000000001 /* Frameworks */,
+				A100001E0000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextLauncherWidget;
+			productName = TextLauncherWidget;
+			productReference = A10001080000000000000001 /* TextLauncherWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000100000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A10000160000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A10000170000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = A10000230000000000000001 /* Build configuration list for PBXProject "TextLauncher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000110000000000000001;
+			productRefGroup = A10000150000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000160000000000000001 /* TextLauncher */,
+				A10000170000000000000001 /* TextLauncherWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A100001A0000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000070000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100001E0000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000E0000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000180000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000020000000000000001 /* ContentView.swift in Sources */,
+				A10000040000000000000001 /* LauncherEntry.swift in Sources */,
+				A10000050000000000000001 /* LauncherStore.swift in Sources */,
+				A10000060000000000000001 /* LaunchRouting.swift in Sources */,
+				A10000030000000000000001 /* LauncherViewModel.swift in Sources */,
+				A10000010000000000000001 /* TextLauncherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100001C0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000B0000000000000001 /* LauncherEntry.swift in Sources */,
+				A100000C0000000000000001 /* LauncherStore.swift in Sources */,
+				A100000D0000000000000001 /* LaunchRouting.swift in Sources */,
+				A10000120000000000000002 /* TextLauncherWidgetConfigurationIntent.swift in Sources */,
+				A10000090000000000000001 /* TextLauncherWidgetBundle.swift in Sources */,
+				A100000A0000000000000001 /* TextLauncherWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000220000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000170000000000000001 /* TextLauncherWidget */;
+			targetProxy = A10000210000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10000240000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000250000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A10000280000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = TextLauncher/TextLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G3YPHMMQ5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TextLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DumbPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000290000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = TextLauncher/TextLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G3YPHMMQ5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TextLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DumbPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A100002A0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TextLauncherWidget/TextLauncherWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G3YPHMMQ5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TextLauncherWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DumbPhone.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A100002B0000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TextLauncherWidget/TextLauncherWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G3YPHMMQ5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TextLauncherWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DumbPhone.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000230000000000000001 /* Build configuration list for PBXProject "TextLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000240000000000000001 /* Debug */,
+				A10000250000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000260000000000000001 /* Build configuration list for PBXNativeTarget "TextLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000280000000000000001 /* Debug */,
+				A10000290000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000270000000000000001 /* Build configuration list for PBXNativeTarget "TextLauncherWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100002A0000000000000001 /* Debug */,
+				A100002B0000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000100000000000000001 /* Project object */;
+}

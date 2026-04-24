@@ -1,6 +1,6 @@
 # DumbPhone
 
-Widgets that list apps by name instead of icons to help "dumb down" your phone and reduce distraction.
+Are you too attached to your phone? Is it exhausting? Same. I didn't want to pay for yet another app and if you feel the same way, feel free to download this (only works with iOS). The main function is to create widgets that list apps by name instead of icons to help "dumb down" your phone and reduce distraction. Adjust whatever you want using apple's XCODE.
 
 ## How it works
 

@@ -1,10 +1,10 @@
 # DumbPhone
 
-Minimal iPhone launcher app plus WidgetKit extension that shows app names as text instead of icons.
+Widgets that list apps by name instead of icons to help "dumb down" your phone and reduce distraction.
 
 ## How it works
 
-- The app stores a list of launcher items with a visible label and a Shortcut name.
+- The app stores launcher items with a visible label, a Shortcut name, and an explicit widget page.
 - The widget renders those labels in a clean text-only layout.
 - Tapping a widget item opens the host app with a custom URL.
 - The host app immediately runs the matching shortcut using Apple's documented Shortcuts URL scheme:
@@ -12,7 +12,7 @@ Minimal iPhone launcher app plus WidgetKit extension that shows app names as tex
 
 ## Why Shortcuts are used
 
-iOS widgets don't get full arbitrary app-launch behavior on their own. The supported pattern is to use widget links/URLs to open the containing app, then let the app handle the next step. This project routes taps through the app and then launches the named Shortcut, which can open another app with that app's URL scheme or built-in Shortcuts action.
+iOS widgets don't get full arbitrary app-launch behavior on their own. The supported pattern is to use widget links or URLs to open the containing app, then let the app handle the next step. This project routes taps through the app and then launches the named Shortcut, which can open another app with that app's URL scheme or built-in Shortcuts action.
 
 ## Setup
 
@@ -27,7 +27,8 @@ iOS widgets don't get full arbitrary app-launch behavior on their own. The suppo
 
 ## Notes
 
-- The widget currently supports `systemMedium` and `systemLarge` because those sizes allow multiple tap targets with `Link`.
-- The first launch seeds a starter set of text entries inspired by your mockup.
-- The widget reads from a shared App Group `UserDefaults` store.
-- Home Screen widgets do not support scrolling or arbitrary heights, so this project supports multiple widget pages instead. Add more than one widget and set each widget's page in the widget configuration UI.
+- The widget currently supports `systemMedium` and `systemLarge`.
+- Assign each app to a widget page directly in the editor.
+- Medium widgets show up to 4 apps per page.
+- Large widgets show up to 7 apps per page.
+- Home Screen widgets do not support scrolling or arbitrary heights, so this project supports multiple widget pages instead.
